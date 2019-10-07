@@ -18,7 +18,7 @@ class Song
   
   def self.new_by_name(name)
     s = Song.new
-    s.name(name)
+    s.name = name
     s
   end
   
@@ -32,5 +32,7 @@ class Song
   def self.find_by_name(n)
     self.all.find{|song| song.name == n}
   end
+
+
 
 end
