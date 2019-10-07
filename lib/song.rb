@@ -37,5 +37,9 @@ class Song
     s = self.find_by_name(n)
     s ? s : self.create_by_name(n)
   end
+  
+  def self.sort
+    self.all.sort
+  end
 
 end
