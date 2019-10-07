@@ -46,8 +46,8 @@ class Song
 
   def self.new_from_filename(n)
     a = n.delete_suffix(".mp3").split(" - ")
-    song = self.new_by_name(a[0])
-    song.artist_name = a[1]
+    song = self.new_by_name(a[1])
+    song.artist_name = a[0]
     binding.pry
     song.save
   end
