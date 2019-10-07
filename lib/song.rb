@@ -51,4 +51,6 @@ class Song
     #binding.pry
     song
   end
+  
+  def self.
 end
