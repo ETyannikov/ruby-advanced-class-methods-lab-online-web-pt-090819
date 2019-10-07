@@ -33,6 +33,6 @@ class Song
     self.all.find{|song| song.name == n}
   end
 
-
+  def self.
 
 end
