@@ -60,6 +60,8 @@ class Song
     song
   end
   
-  def 
-  
+  def self.destroy_all
+    self.all = []
+    self.all
+  end
 end
