@@ -38,7 +38,7 @@ class Song
     s ? s : self.create_by_name(n)
   end
   
-  def self.sort
+  def self.alphabetical
     self.all.sort
   end
 
