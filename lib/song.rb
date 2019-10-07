@@ -48,7 +48,7 @@ class Song
     a = n.delete_suffix(".mp3").split(" - ")
     song = self.new_by_name(a[0])
     song.artist_name = a[1]
-    binding pry
+    binding.pry
     song.save
   end
 end
