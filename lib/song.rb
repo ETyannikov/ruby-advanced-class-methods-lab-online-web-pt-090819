@@ -50,5 +50,6 @@ class Song
     song.artist_name = a[0]
     #binding.pry
     song.save
+    song
   end
 end
